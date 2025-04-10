@@ -79,6 +79,24 @@
       margin-top: 100px; /* Space for fixed nav */
       padding: 20px;
     }
+
+    /* Button styling */
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #ff9900;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: #e68a00;
+      transform: scale(1.1);
+    }
   </style>
 </head>
 <body>
@@ -86,7 +104,7 @@
   <nav>
     <a href="#home">Home</a>
     <a href="#socials">Socials</a>
-    <a href="#exploits">Exploits</a> <!-- New tab for Exploits -->
+    <a href="#exploits">Exploits</a>
   </nav>
 
   <h1>Welcome to My Website</h1>
@@ -105,7 +123,9 @@
   <section id="exploits">
     <h2>My Exploits</h2>
     <p>Here you can find all the exciting exploits and projects I've been working on!</p>
-    <!-- You can add any content you want for the "Exploits" section here -->
+
+    <!-- Button to GitHub Exploits Link -->
+    <a class="button" href="https://github.com/Soggaling/Blooket-Exploits" target="_blank">Check Out My Blooket Exploits</a>
   </section>
 </body>
 </html>
