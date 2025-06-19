@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Hello!!</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -51,7 +51,6 @@
       font-size: 1.5rem;
     }
 
-    /* Navigation bar styling */
     nav {
       position: fixed;
       top: 0;
@@ -74,16 +73,14 @@
       color: #61dafb;
     }
 
-    /* Section styling */
     section {
-      margin-top: 100px; /* Space for fixed nav */
+      margin-top: 100px;
       padding: 20px;
     }
 
-    /* Button styling */
     .button {
       display: inline-block;
-      margin-top: 20px;
+      margin: 10px;
       padding: 12px 25px;
       background-color: #ff9900;
       color: #ffffff;
@@ -97,6 +94,10 @@
       background-color: #e68a00;
       transform: scale(1.1);
     }
+
+    .button i {
+      margin-right: 8px;
+    }
   </style>
 </head>
 <body>
@@ -105,6 +106,7 @@
     <a href="#home">Home</a>
     <a href="#socials">Socials</a>
     <a href="#exploits">Exploits</a>
+    <a href="#html-projects">HTML Projects</a>
   </nav>
 
   <h1>Welcome to My Website</h1>
@@ -112,9 +114,9 @@
 
   <!-- Social links with icons -->
   <div id="socials">
-    <a href="https://github.com/soggaling" target="_blank"><i class="fab fa-github"></i> Visit My GitHub</a>
-    <a href="https://pastebin.com/u/SoggalingExploits" target="_blank"><i class="fab fa-paste"></i> Visit My Pastebin</a>
-    <a href="https://www.youtube.com/@SoggalingR6" target="_blank"><i class="fab fa-youtube"></i> Visit My YouTube</a>
+    <a class="button" href="https://github.com/soggaling" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a class="button" href="https://pastebin.com/u/SoggalingExploits" target="_blank"><i class="fas fa-code"></i> Pastebin</a>
+    <a class="button" href="https://www.youtube.com/@SoggalingR6" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
   </div>
 
   <h2>Check out the rest of the socials on YouTube.</h2>
@@ -123,9 +125,15 @@
   <section id="exploits">
     <h2>My Exploits</h2>
     <p>Here you can find all the exciting exploits and projects I've been working on!</p>
+    <a class="button" href="https://github.com/Soggaling/Blooket-Exploits" target="_blank"><i class="fas fa-bug"></i> Blooket Exploits</a>
+  </section>
 
-    <!-- Button to GitHub Exploits Link -->
-    <a class="button" href="https://github.com/Soggaling/Blooket-Exploits" target="_blank">Check Out My Blooket Exploits</a>
+  <!-- HTML Projects Section -->
+  <section id="html-projects">
+    <h2>HTML Projects</h2>
+    <p>These are some fun projects I've built using HTML/CSS/JS!</p>
+    <a class="button" href="https://soggaling.github.io/my-cool-project" target="_blank"><i class="fas fa-gamepad"></i> Cool Project 1</a>
+    <a class="button" href="https://soggaling.github.io/another-game" target="_blank"><i class="fas fa-code"></i> Another Game</a>
   </section>
 </body>
 </html>
